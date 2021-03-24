@@ -1,8 +1,8 @@
 <?php 
-    $username = "sql4399061";
-    $password = "AMkyubG3en";
+    $username = "epiz_28156292";
+    $password = "12357489legend";
 
-    $conn = new PDO("mysql:host=sql4.freesqldatabase.com;dbname=sql4399061", $username,  $password);
+    $conn = new PDO("mysql:host=sql305.byetcluster.com;dbname=epiz_28156292_trt", $username,  $password);
 
 
      function getUser(){

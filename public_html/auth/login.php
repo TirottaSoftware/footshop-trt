@@ -23,12 +23,8 @@
         $_SESSION['username'] = $username;
         $_SESSION['uid'] = $userId;
         $_SESSION['admin'] = $admin;
-        // echo $username . ": " . $admin;
-        header('Location: https://localhost:4433/footshop-tirotta/public_html/index.php');
-    }
+        header("Location: " . "http://" . $_SERVER['HTTP_HOST'] . "public_html/index.php");
     else{
-        echo "Wrong Credentials.";
-        sleep(1);
         header('Location: https://localhost:4433/footshop-tirotta/public_html/index.php');
     }
 ?>
